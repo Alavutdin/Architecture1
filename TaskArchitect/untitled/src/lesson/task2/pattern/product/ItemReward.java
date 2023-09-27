@@ -1,4 +1,6 @@
 package lesson.task2.pattern.product;
 
-public class ItemReward {
+import lesson.task2.pattern.inteface.iGameItem;
+
+public abstract class ItemReward implements iGameItem {
 }

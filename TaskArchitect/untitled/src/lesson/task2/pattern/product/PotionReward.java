@@ -1,8 +1,8 @@
 package lesson.task2.pattern.product;
 
-public class GemReward extends ItemReward{
+public class PotionReward extends ItemReward{
     @Override
     public void open() {
-        System.out.println("Gem");
+        System.out.println("Pot");
     }
 }

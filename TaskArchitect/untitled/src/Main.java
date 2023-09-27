@@ -1,22 +1,14 @@
+import lesson.task1.architect.ModelElements.Scene;
+
+import java.util.Arrays;
+import java.util.Random;
+import java.util.Scanner;
+
 public class Main {
-    public static final String Even="Yes";
-    public static final String Den="No";
-    public static final String []arrayStr=new String[5];
-
+    public static int [][] arr;
     public static void main(String[] args) {
-        arrayStr[0]=Even;
-        arrayStr[1]=Den;
-        arrayStr[2]=Even;
-        arrayStr[3]=Den;
-        arrayStr[4]=Even;
-        for (int i = 0; i < arrayStr.length; i++) {
-            if((i%2)==0){
-                System.out.println(arrayStr[i]);
-            }else {
-                System.out.println(arrayStr[i]);
-            }
-        }
-
-
+        Scanner scanner = new Scanner(System.in);
+        int y[]={5,1,9};
+        System.out.println(Arrays.toString(y));
     }
 }

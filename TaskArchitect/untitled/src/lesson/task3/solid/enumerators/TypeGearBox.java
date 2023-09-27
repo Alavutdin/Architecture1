@@ -1,2 +1,4 @@
-package lesson.task3.solid.enumerators;public class TypeGearBox {
+package lesson.task3.solid.enumerators;
+
+public class TypeGearBox {
 }
