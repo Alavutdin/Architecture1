@@ -1,0 +1,1 @@
+https://github.com/Golikov-Andrey/Arch2623/blob/main/RewardGenerator/src/App.java

@@ -3,10 +3,11 @@ package lesson.task3.solid.classes;
 import lesson.task3.solid.enumerators.TypeCar;
 import lesson.task3.solid.enumerators.TypeFuel;
 import lesson.task3.solid.enumerators.TypeGearBox;
+import lesson.task3.solid.interfaces.IFuelStation;
 
 import java.awt.*;
 
-public class Car {
+public class Car implements IFuelStation {
     private String make;
     private String model;
     private TypeCar bodyCar;
@@ -28,7 +29,6 @@ public class Car {
         this.bodyColor = bodyColor;
         this.engineCap = engineCap;
     }
-
 
     public void movement(){
 
@@ -105,5 +105,10 @@ public class Car {
 
     public void setEngineCap(int engineCap) {
         this.engineCap = engineCap;
+    }
+
+    @Override
+    public void fuel() {
+
     }
 }

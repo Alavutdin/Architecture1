@@ -1,4 +1,6 @@
 package lesson.task3.solid.enumerators;
 
-public class TypeCar {
+public enum TypeCar {
+    SEDAN,
+    PICKUP
 }

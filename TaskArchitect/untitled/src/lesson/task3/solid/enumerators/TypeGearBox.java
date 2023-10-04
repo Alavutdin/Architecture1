@@ -1,4 +1,7 @@
 package lesson.task3.solid.enumerators;
 
-public class TypeGearBox {
+public enum TypeGearBox {
+    MAN,
+    AUTO,
+    CVT
 }
